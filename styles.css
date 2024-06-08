@@ -78,16 +78,6 @@ nav a {
     margin: 0;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
 /* About Us Section Styles */
 .about-us {
     background-color: white;
