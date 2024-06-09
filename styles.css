@@ -52,7 +52,7 @@ header {
 .join-button {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #f00;
+    background-color: #000;
     color: #fff;
     border: none;
     cursor: pointer;
