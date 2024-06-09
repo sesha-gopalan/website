@@ -22,15 +22,18 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #333;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .logo-and-title {
     display: flex;
     align-items: center;
+    flex-grow: 1; /* Ensure it takes available space */
 }
 
 .logo-and-title img {
-    height: 50px;
+    width: auto;
+    height: 2cm;
     margin-right: 20px;
 }
 
@@ -139,5 +142,23 @@ footer .social-icons i:hover {
     section {
         margin: 10px;
         flex: 1 1 calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .header-nav {
+        width: 100%;
+        justify-content: space-around; /* Spread items evenly */
+        margin-top: 10px; /* Add some space above the nav */
+    }
+
+    .header-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .logo-and-title {
+        justify-content: center; /* Center align the logo and title */
+        width: 100%;
     }
 }
