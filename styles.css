@@ -37,21 +37,6 @@ header {
     margin-right: 20px;
 }
 
-.header-nav {
-    display: flex;
-    gap: 20px;
-}
-
-.header-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.header-nav a:hover {
-    color: #c00;
-}
-
 .banner {
     position: relative;
 }
